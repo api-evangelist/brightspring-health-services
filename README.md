@@ -1,33 +1,41 @@
-# BrightSpring Health Services (brightspring-health-services)
-BrightSpring Health Services is a Fortune 500 company. This repository captures the APIs, developer tools, and machine-readable API artifacts for BrightSpring Health Services.
+# BrightSpring Health Services
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/brightspring-health-services/refs/heads/main/apis.yml)
+BrightSpring Health Services is a leading Fortune 500 provider of comprehensive home and community-based health services for complex populations. The company operates across provider services, pharmacy services, and managed care, serving patients who require specialized and chronic care in home and community settings.
 
-## Scope
+## Service Lines
 
-- **Type:** Contract
-- **Position:** Consuming
-- **Access:** 3rd-Party
+### Provider Services
+- Home health care
+- Rehabilitation and neurorehabilitation services
+- Personal care assistance
 
-## Tags:
+### Pharmacy Services
+- Infusion and specialty pharmacies (including immunoglobulin therapy)
+- Home and community-based pharmacy operations
+- Over 40 million prescriptions dispensed annually
 
- - Fortune 500
+### Managed Care
+- Home-based primary care programs
+- Managed care insurance plans
+- 44% demonstrated reduction in hospitalizations
 
-## Timestamps
+## Clinical Brands
 
-- **Created:** 2026-03-21
-- **Modified:** 2026-03-21
+- Adoration Home Health
+- Amerita (specialty infusion)
+- All Ways Caring
 
-## APIs
+## Key Metrics
 
-No public APIs have been documented yet. Contributions welcome.
+- 98% patient satisfaction for rehab services
+- Over 90% of home health branches achieved 4+ STAR ratings
+- Fortune 500 company
 
-## Common Properties
+## Technology
 
-- [Website](https://www.brightspring-health-services.com)
+BrightSpring operates REACH, an internal employee and stakeholder intranet platform, and leverages electronic health record and pharmacy management systems for clinical operations.
 
-## Maintainers
+## Links
 
-**FN:** API Evangelist
-
-**Email:** info@apievangelist.com
+- [Website](https://www.brightspringhealth.com)
+- [Investor Relations](https://ir.brightspringhealth.com)
