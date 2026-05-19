@@ -26,6 +26,8 @@ description: >-
   including Adoration Home Health, Amerita specialty infusion, and All Ways Caring.
 apis: []
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/brightspringhealth
   - type: Website
     url: https://www.brightspringhealth.com
   - type: EmployeePortal
