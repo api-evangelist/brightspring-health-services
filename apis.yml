@@ -34,6 +34,8 @@ common:
     url: https://reach.brightspringhealth.com
   - type: InvestorRelations
     url: https://ir.brightspringhealth.com
+  - type: LLMsTxt
+    url: https://brightspringhealth.com/llms.txt
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
