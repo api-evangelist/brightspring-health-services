@@ -26,6 +26,8 @@ description: >-
   including Adoration Home Health, Amerita specialty infusion, and All Ways Caring.
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/brightspring-health-services-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/brightspringhealth
   - type: Website
@@ -36,6 +38,8 @@ common:
     url: https://ir.brightspringhealth.com
   - type: LlmsText
     url: https://brightspringhealth.com/llms.txt
+  - url: https://www.brightspringhealth.com/feed/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
