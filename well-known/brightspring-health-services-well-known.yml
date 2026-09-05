@@ -1,0 +1,81 @@
+generated: '2026-09-04'
+method: probed
+source: >-
+  Live HTTP probes of the RFC 8615 well-known path list against every host this record
+  knows: the registrable domain and www, the employee portal host, and the investor
+  relations host. BrightSpring publishes no API, so there is no baseURL host or OpenAPI
+  servers[] host to add to this list.
+note: >-
+  Every named path missed. www.brightspringhealth.com and the apex return the WordPress
+  404 template (or an nginx 404 for /.well-known/security.txt). reach.brightspringhealth.com
+  answers HTTP 200 to EVERY path with a 200-byte JavaScript redirect into an Okta SAML
+  login — a catch-all shell, not a document, and it is recorded here as a miss for that
+  reason. ir.brightspringhealth.com returns an Akamai "Access Denied" 403 to a browser
+  User-Agent on every /.well-known/ path while serving its news-release pages to indexers,
+  so those rows are an edge policy against our crawler, not a published document.
+  NO WellKnown or SecurityTxt pointer is emitted in apis.yml: nothing here returned a
+  real document, and a pointer would assert a surface the provider does not serve.
+hosts:
+  - host: www.brightspringhealth.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+        file: null
+      - path: /.well-known/openid-configuration
+        status: 404
+        file: null
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+        file: null
+      - path: /.well-known/api-catalog
+        status: 404
+        file: null
+      - path: /.well-known/ai-plugin.json
+        status: 404
+        file: null
+      - path: /.well-known/agent-card.json
+        status: 404
+        file: null
+      - path: /.well-known/agent.json
+        status: 404
+        file: null
+  - host: brightspringhealth.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+        file: null
+  - host: reach.brightspringhealth.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+        file: null
+      - path: /.well-known/openid-configuration
+        status: 200
+        file: null
+        note: HTML/JS shell redirecting to an Okta SAML login — not a document; treated as a miss.
+      - path: /.well-known/oauth-authorization-server
+        status: 200
+        file: null
+        note: HTML/JS shell redirecting to an Okta SAML login — not a document; treated as a miss.
+      - path: /.well-known/api-catalog
+        status: 200
+        file: null
+        note: HTML/JS shell redirecting to an Okta SAML login — not a document; treated as a miss.
+      - path: /.well-known/agent-card.json
+        status: 200
+        file: null
+        note: HTML/JS shell redirecting to an Okta SAML login — not a document; treated as a miss.
+  - host: ir.brightspringhealth.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 403
+        file: null
+      - path: /.well-known/openid-configuration
+        status: 403
+        file: null
+      - path: /.well-known/api-catalog
+        status: 403
+        file: null
+      - path: /.well-known/agent-card.json
+        status: 403
+        file: null

@@ -1,0 +1,14 @@
+generated: '2026-09-04'
+method: searched
+source: >-
+  Full walk of https://www.brightspringhealth.com/sitemap_index.xml (633 URLs, fetched
+  2026-09-04) plus targeted search for a BrightSpring developer/API pricing page.
+plan_count: 0
+plans: []
+note: >-
+  BrightSpring Health Services publishes no API product and therefore no API plans,
+  tiers or pricing. Its 633-page corporate site carries no /pricing, /developers,
+  /api or /docs section, and no api./developer./portal. subdomain resolves on
+  brightspringhealth.com or pharmerica.com. Revenue is contracted clinical and pharmacy
+  services, not metered API access. This is an honest zero, not an unchecked field, and
+  NO `Pricing` or `Plans` pointer is emitted in apis.yml — there is no API to price.

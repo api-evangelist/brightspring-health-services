@@ -1,0 +1,13 @@
+generated: '2026-09-04'
+method: searched
+source: >-
+  Full walk of https://www.brightspringhealth.com/sitemap_index.xml (633 URLs, fetched
+  2026-09-04); no developer documentation exists on any BrightSpring host to carry limits.
+limit_count: 0
+rate_limits: []
+response_headers: []
+note: >-
+  No published API, therefore no published rate limits and no runtime rate-limit headers
+  to record. The only machine-addressable surfaces BrightSpring serves are a Yoast-generated
+  llms.txt, an RSS feed and a sitemap, none of which document limits. Honest zero; no
+  `RateLimits` pointer is emitted.

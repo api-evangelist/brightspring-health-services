@@ -1,0 +1,85 @@
+generated: '2026-09-04'
+method: searched
+source: >-
+  https://www.brightspringhealth.com/privacy-policy/ and
+  https://www.brightspringhealth.com/compliance/ — read 2026-09-04.
+note: >-
+  BrightSpring publishes NO machine-readable API contract, so there is nothing to derive
+  API-technical conformance from (no OAuth/OIDC, no FHIR, no SCIM, no OData, no JSON:API,
+  no RFC 9457). Every entry below is a REGULATORY / privacy regime the company states in
+  its own published policies, with the exact page as evidence. Nothing here is inferred
+  from the sector: a claim is recorded only where BrightSpring's own text asserts it.
+  The Kin Score `health` regulatory regime applies to this record via tags.
+surfaces:
+  openapi: null
+  graphql: null
+  mcp: null
+  note: No published API surface of any kind — see well-known/ and x-coverage in apis.yml.
+conformance:
+  - id: hipaa
+    name: HIPAA (Health Insurance Portability and Accountability Act)
+    conforms: true
+    evidence: https://www.brightspringhealth.com/privacy-policy/
+    quote: >-
+      "To the extent that any of the information we collect on our Websites constitutes
+      Protected Health Information ("PHI") under HIPAA, we will comply with the
+      requirements of HIPAA and its implementing regulations."
+    supporting:
+      - https://www.brightspringhealth.com/wp-content/uploads/BrightSpring-PrivacyPractices.pdf
+    scope: >-
+      Stated as a corporate/clinical obligation and a website Notice of Privacy Practices.
+      It is NOT a statement about an API: no FHIR, no HL7v2, no X12 and no patient-access
+      or payer-to-payer API is published, so no domain-standard conformance is claimed.
+  - id: gdpr
+    name: EU/UK/Swiss data subject rights (GDPR-aligned)
+    conforms: true
+    evidence: https://www.brightspringhealth.com/privacy-policy/
+    quote: >-
+      "Those residing in the EU, UK, and Switzerland may benefit from a number of rights in
+      relation to your information that we process."
+    scope: >-
+      Access, rectification, erasure, portability and the right to lodge a complaint with a
+      data protection authority are enumerated in the published policy.
+  - id: us-state-privacy
+    name: US state consumer privacy laws (CCPA/CPRA and thirteen further states)
+    conforms: true
+    evidence: https://www.brightspringhealth.com/privacy-policy/
+    quote: >-
+      "Certain states in the U.S., including California, Colorado, Connecticut, Delaware,
+      Florida, Indiana, Iowa, Montana, Oregon, Tennessee, Texas, Utah, and Virginia provide
+      (or will in the future provide) their state residents with rights related to their
+      Personal Information."
+  - id: oig-seven-elements
+    name: HHS OIG Seven Elements of an Effective Compliance Program
+    conforms: true
+    evidence: https://www.brightspringhealth.com/compliance/
+    quote: >-
+      The published compliance page states the program is modeled after the Office of
+      Inspector General's Seven Elements of an Effective Compliance Program.
+    supporting:
+      - https://www.brightspringhealth.com/wp-content/uploads/2026/04/Code-of-Ethics-Business-Conduct-1.1.25.pdf
+    channels:
+      compliance_action_line: '866.293.3863'
+      anonymous: true
+      note: >-
+        This is a healthcare ethics/fraud-and-abuse hotline. It is NOT a security
+        vulnerability disclosure channel, and no `Security` pointer is emitted for it.
+  - id: dra-2005-section-6032
+    name: Deficit Reduction Act of 2005, section 6032
+    conforms: true
+    evidence: https://www.brightspringhealth.com/compliance/
+    quote: >-
+      Named policies published for contractors and agents: Fraud Prevention; Reporting
+      Compliance Issues; Non-Retaliation and Non-Retribution; Reporting Accounting Concerns;
+      Fraud, Waste and Abuse Compliance Training.
+not_claimed:
+  - id: soc2
+    reason: No SOC 2 report or trust center is published on any BrightSpring host.
+  - id: iso-27001
+    reason: No ISO 27001 certification is published.
+  - id: fhir
+    reason: >-
+      No FHIR server, patient-access API or SMART-on-FHIR endpoint is published; no
+      api/developer/fhir subdomain resolves on brightspringhealth.com.
+  - id: hitrust
+    reason: No HITRUST CSF certification is published.

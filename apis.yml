@@ -35,7 +35,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brightspring-health-services.png
 access: 3rd-Party
 created: '2026-03-21'
-modified: '2026-04-21'
+modified: '2026-09-04'
 position: Consuming
 description: >-
   BrightSpring Health Services is a leading Fortune 500 provider of comprehensive
@@ -62,7 +62,41 @@ common:
     url: https://brightspringhealth.com/llms.txt
   - url: https://www.brightspringhealth.com/feed/
     type: Blog
+  - type: Conformance
+    url: conformance/brightspring-health-services-conformance.yml
+  - type: Compliance
+    url: https://www.brightspringhealth.com/compliance/
+  - type: TermsOfService
+    url: https://www.brightspringhealth.com/terms-of-use/
+  - type: PrivacyPolicy
+    url: https://www.brightspringhealth.com/privacy-policy/
+  - type: Support
+    url: https://www.brightspringhealth.com/contact-us/
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.23'
+x-enrichment:
+  date: '2026-09-04'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    BrightSpring's entire 633-URL corporate sitemap carries no developer, API or docs
+    section, no api./developer./portal./fhir. subdomain resolves on brightspringhealth.com
+    or pharmerica.com, and the one integration page any BrightSpring brand publishes
+    (pharmerica.com/pccapi/) describes PharMerica CONSUMING PointClickCare's API rather
+    than shipping one of its own.
+  evidence:
+    - url: https://www.brightspringhealth.com/openapi.json
+      status: 404
+    - url: https://www.brightspringhealth.com/.well-known/api-catalog
+      status: 404
+    - url: https://www.brightspringhealth.com/sitemap_index.xml
+      status: 200
+    - url: https://pharmerica.com/pccapi/
+      status: 200
+  checked: '2026-09-04'
