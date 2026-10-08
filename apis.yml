@@ -48,6 +48,10 @@ description: >-
   including Adoration Home Health, Amerita specialty infusion, and All Ways Caring.
 apis: []
 common:
+  - type: Plans
+    url: plans/brightspring-health-services-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/brightspring-health-services-rate-limits.yml
   - type: DomainSecurity
     url: security/brightspring-health-services-domain-security.yml
   - type: LinkedIn
