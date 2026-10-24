@@ -2,6 +2,13 @@ aid: brightspring-health-services
 url: https://raw.githubusercontent.com/api-evangelist/brightspring-health-services/refs/heads/main/apis.yml
 name: BrightSpring Health Services
 tags:
+  - Home Care
+  - Healthcare
+  - Pharmacy
+  - Rehabilitation
+  - Managed Care
+  - Fortune 500
+tags_raw:
   - Home Health
   - Healthcare
   - Pharmacy
