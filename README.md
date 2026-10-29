@@ -64,42 +64,96 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-BrightSpring Health Services is a leading Fortune 500 provider of comprehensive home and community-based health services for complex populations. The company operates across provider services, pharmacy services, and managed care, serving patients who require specialized and chronic care in home and community settings.
+BrightSpring Health Services is a leading Fortune 500 provider of comprehensive home and community-based health services for complex populations. The company operates across three primary service lines: Provider Services (home health, rehabilitation, neurorehabilitation, personal care), Pharmacy Services (specialty infusion, home and community-based pharmacy dispensing over 40 million prescriptions annually), and Managed Care (home-based primary care with demonstrated 44% reduction in hospitalizations). BrightSpring operates multiple clinical brands including Adoration Home Health, Amerita specialty infusion, and All Ways Caring.
 
-## Service Lines
+**Areas:** Home Health · Healthcare · Pharmacy · Rehabilitation · Managed Care · Fortune 500
 
-### Provider Services
-- Home health care
-- Rehabilitation and neurorehabilitation services
-- Personal care assistance
+## BrightSpring Health Services on APIs.io
 
-### Pharmacy Services
-- Infusion and specialty pharmacies (including immunoglobulin therapy)
-- Home and community-based pharmacy operations
-- Over 40 million prescriptions dispensed annually
+Everything profiled for BrightSpring Health Services is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/brightspring-health-services/](https://apis.io/providers/brightspring-health-services/)** — or go straight to one of the APIs or properties below.
 
-### Managed Care
-- Home-based primary care programs
-- Managed care insurance plans
-- 44% demonstrated reduction in hospitalizations
+### Published properties
 
-## Clinical Brands
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- Adoration Home Health
-- Amerita (specialty infusion)
-- All Ways Caring
+#### Security (1)
 
-## Key Metrics
+Authentication, trust centre, and vulnerability disclosure.
 
-- 98% patient satisfaction for rehab services
-- Over 90% of home health branches achieved 4+ STAR ratings
-- Fortune 500 company
+- [Brightspring Health Services Domain Security](https://apis.io/security/brightspring-health-services/brightspring-health-services-domain-security/)
 
-## Technology
+#### Plans and pricing (1)
 
-BrightSpring operates REACH, an internal employee and stakeholder intranet platform, and leverages electronic health record and pharmacy management systems for clinical operations.
+Published plans, tiers and prices.
 
-## Links
+- [Brightspring Health Services Plans Pricing](https://apis.io/plans/brightspring-health-services/brightspring-health-services-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Brightspring Health Services Rate Limits](https://apis.io/rate-limits/brightspring-health-services/brightspring-health-services-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.brightspringhealth.com)
-- [Investor Relations](https://ir.brightspringhealth.com)
+- [Support](https://www.brightspringhealth.com/contact-us/)
+- [Blog](https://www.brightspringhealth.com/feed/)
+- [Compliance](https://www.brightspringhealth.com/compliance/)
+- [Terms of service](https://www.brightspringhealth.com/terms-of-use/)
+- [Privacy policy](https://www.brightspringhealth.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 16.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 28.9 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 23.4** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/brightspring-health-services/](https://apis.io/providers/brightspring-health-services/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BrightSpring Health Services: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/brightspring-health-services/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
